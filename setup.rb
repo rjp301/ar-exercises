@@ -9,10 +9,10 @@ ActiveRecord::Base.logger = Logger.new(STDOUT)
 puts 'Establishing connection to database ...'
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
-  database: 'ar_exercises',
-  username: 'development',
-  password: 'development',
-  host: 'localhost',
+  database: 'xacbaajq',
+  username: 'xacbaajq',
+  password: 'xPqrb9Oi_-AryBdY9DtYtErct3UwXX3g',
+  host: 'kashin.db.elephantsql.com',
   port: 5432,
   pool: 5,
   encoding: 'unicode',
